@@ -1,3 +1,39 @@
+# 🛰️ GPS Mobility Data Processing & Visualization
+
+This project demonstrates the full pipeline of **cleaning, processing, and visualizing raw GPS data** to uncover human mobility patterns. The dataset, originally captured in a non-standard format, was transformed into usable geospatial coordinates and visualized to extract meaningful insights such as trip segmentation, speed, and acceleration.
+
+Developed by Kushmi Anuththara as a portfolio project for urban mobility modeling and geospatial analytics.
+
+---
+
+## 📌 Key Highlights
+
+- ✅ Convert GPS coordinates from degrees-minutes to decimal degrees
+- ✅ Calculate speed, distance, duration, and acceleration
+- ✅ Segment trips and assign unique IDs to each point
+- ✅ Create interactive maps, heatmaps, and scatter plots
+- ✅ Apply data quality checks and transformation
+
+---
+
+## 📁 Project Structure
+
+| File/Folder                  | Description |
+|------------------------------|-------------|
+| `Lab2_Kushmi.ipynb`          | Main Jupyter Notebook for data cleaning, processing, and visualization |
+| `kushmi_lab2.csv`            | Cleaned dataset with trip and point IDs, speed, distance, acceleration |
+| `gps_map.html`               | Interactive Folium map visualizing all GPS points |
+| `gps_map.png` / `gps_map_high_res.png` | Static map outputs |
+| `Task2.1.png`, `Task2.2.png` | Heatmap and scatter plot of point density and movement |
+| `Lab2_KushmiAnuththara.pdf` | Final project reflection and summary |
+
+---
+
+## 🔧 Data Processing Workflow
+
+### 1. Coordinate Conversion
+
+Raw format (e.g., `60267285`) → Decimal degrees using:
 
 ### 2. Feature Engineering
 
